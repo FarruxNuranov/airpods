@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+body{
+    background: #151515;
+}
+
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+.header__nav{
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.25);
+    background: #282828;
+}
+
+
+.header__box{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header__list{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.header__list-link{
+    font-family: 'montserratBold';
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    color: #fff;
+    display: flex;
+   
+}
+
+.header__list-link:hover{
+    color: red;
+}
+
+
+.header__box-left{
+    display: flex;
+    gap: 30px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    align-items: center;
+}
+
+
+.header__box-right{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+
+.header__content{
+    background: url(../images/Headerbg.jpg)no-repeat center/ cover;
+    height: 700px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 38px;
+    
+}
+
+.header__content-title{
+    font-family: 'ProstoOne';
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 75%;
+    color: #fff;
+}
+
+
+.header__content-link{
+    background: #fff;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+}
+
+.header__content-link:hover{
+    background: red;
+    
+}
+
+.header__content-text{
+  
+    font-family: 'MontserratMedium';
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #171718;
+    
+   
+}
+
+.main__box-left{
+    max-width: 538px;
+    width: 100%;
+}
+
+.main__box-left-text{
+    font-family: var'MontserratMedium';
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+}
+
+.main__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+
+.dark__box-right-text{
+    font-family: 'MontserratMedium';
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+}
+
+
+.dark__box-right{
+    max-width: 540px;
+    width: 100%;
+}
+
+
+
+.dark__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+
+.drop__box-left-text{
+    font-family: 'montserratBold';
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    color: #fff;
+    
+   
+}
+
+
+.drop__box-right-text{
+    font-family: 'montserratBold';
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    
+    
+}
+
+
+.drop__box{
+    display: flex;
+     gap: 11px;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+
+}
+
+.drop__box-mid::before{
+    content: '';
+    display: block;
+    width: 61px;
+    height: 1px;
+    background: #c4c4c4;
+}
+
+.drop__box-mid::after{
+    content: '';
+    display: block;
+    width: 61px;
+    height: 1px;
+    background: #c4c4c4;
+}
+
+
+.drop__box-mid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.drop__box-mid{
+    display: flex;
+    gap: 14px;
+}
+
+
+.phone__box{
+    display: flex;
+    gap: 30px;
+    margin-top: 80px ;
+    margin-bottom:77px ;
+}
+
+.phone__box-item{
+    border-radius: 6px;
+    max-width: 255px;
+    width: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone__box-item-title{
+    font-family: 'montserratBold';
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+    padding-top: 15px;
+}
+
+
+.phone__box-item-text{
+    font-family: 'montserratRegular';
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000;
+ 
+}
+
+
+
+.phone__box-link{
+    width: 161px;
+    height: 34px;
+    background: #151515;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:27px ;
+    margin-bottom: 22px;
+}
+
+
+.phone__box-link:hover{
+    background: red;
+}
+
+
+.phone__box-item-img{
+    padding: 10px 0;
+}
+
+
+
+.footer{
+    box-shadow: 0 -4px 20px 0 rgba(0, 0, 0, 0.25);
+    background: #282828;
+}
+
+
+
+.footer__box-link-list{
+    font-family: 'montserratBold';
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    color: #fff;
+} 
+
+.footer__box-link-list:hover{
+    color: red;
+}
+
+.footer__box-link{
+    display: flex;
+    gap: 30px;
+}
+
+.footer__box-card{
+    display: flex;
+    gap: 29px;
+}
+
+.footer__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+@media(max-width:1140px){
+
+}
+
+
+@media(max-width:900px){
+    .main__box{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .phone__box{
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+    }
+}
+
+@media(max-width:750px){
+    .drop__box{
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .main__box-left-text {
+        text-align: center;
+    }
+    .dark__box{
+        flex-direction: column-reverse;
+        gap: 15px;
+
+    }
+
+    .dark__box-right-text{
+        text-align: center;
+    }
+
+    .drop__box-left-text{
+        text-align: center;
+    }
+
+    .drop__box-right-text{
+        text-align: center;
+    }
+
+    .header__content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .header__content-title{
+        font-size: 75px;
+    }
+
+    
+
+    
+
+}
+
+@media(max-width:600px) {
+    .main__box{
+        max-width: 650px;
+        width: 100%;
+    }
+
+    .main__box img{
+        width: 100%;
+    }
+
+    .footer__box{
+        flex-direction: column;
+        gap: 20px;
+        
+
+    }
+
+    .header__box{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .header__content-title{
+        font-size: 55px;
+    }
+
+    .drop__box-mid{
+        display: none;
+    }
+
+    .dark__box{
+        max-width: 428px;
+        width: 100%;
+
+    }
+
+    .dark__box img {
+        width: 100%;
+    }
+}
+
+
